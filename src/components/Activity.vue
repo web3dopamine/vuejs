@@ -1,26 +1,43 @@
 <template>
   <div class="container">
     <div class="holder">
+      <form @submit.prevent="addActivity">
+        <input type="text" placeholder="Enter your activity..." v-model="activity" v-validate="'min:5'" name="activity"/>
+        <p class="alert" v-if="errors.has('activity')"> {{ errors.first('activity') }} </p>
+      </form>
       <ul>
         <li v-for="(data, index) in activities" :key='index'>{{data.activity}}</li>
       </ul>
-      <p>These are the skills that you possess.</p>
+      <p>These are the activities you need to do.</p>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name : 'Activities',
-  data(){
+  name: 'Activities',
+  data () {
     return {
+      activity: '',
       activities: [
-        { "activity": "vue.js" },
-        { "activity": "Blockchian Expert"}
+        {'activity': 'vue.js'},
+        {'activity': 'Blockchian Expert'}
       ]
     }
+  },
+  methods: {
+    addActivity () {
+      this.$validator.validateAll().then((result)=>{
+        if (result) {
+          this.activities.push({activity: this.activity})
+          this.activity = ''
+        } else {
+          console.log("not valid")
+        }
+      })
+    }
   }
- }
+}
 
 </script>
 
@@ -35,7 +52,6 @@ export default {
     padding: 0;
     list-style-type: none;
   }
-  
   ul li {
     padding: 20px;
     font-size: 1.3em;
@@ -54,5 +70,19 @@ export default {
   .container {
     box-shadow: 0px 0px 40px lightgray;
   }
-
+   input {
+    width: calc(100% - 40px);
+    border: 0;
+    padding: 20px;
+    font-size: 1.3em;
+    background-color: #323333;
+    color: #687F7F;
+  }
+  .alert {
+    background: #fdf2ce;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px;
+    margin-top: -20px;
+  }
 </style>
