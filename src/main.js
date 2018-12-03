@@ -4,7 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import VeeValidate from 'vee-validate'
 import router from './router'
+import ToggleButton from 'vue-js-toggle-button'
 
+Vue.use(ToggleButton)
 Vue.use(VeeValidate)
 Vue.config.productionTip = false
 

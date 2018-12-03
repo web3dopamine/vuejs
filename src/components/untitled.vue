@@ -11,7 +11,8 @@
       <ul>
         <transition-group name="list" enter-active-class="animated bounceInUp" leave-active-class="animated bounceOutDown">
           <li v-for="(data, index) in activities" :key='index'>{{data.activity}}
-          <toggle-button :value='data.value' :key='index' @change="onChangeEventHandler(index)" :labels="{checked: 'On', unchecked: 'Off'}"/>
+          <toggle-button :value="true"
+               :labels="{checked: 'Incomplete', unchecked: 'Complete'}"/>
           <i class="fa fa-minus-circle" v-on:click="remove(index)"></i>
           </li>
         </transition-group>
@@ -27,14 +28,17 @@ export default {
   data () {
     return {
       activity: '',
-      activities: []
+      activities: [
+        {'activity': 'vue.js'},
+        {'activity': 'Blockchian Expert'}
+      ],
+      complete: localStorage.getItem('complete') || false
     }
   },
   mounted () {
     if (localStorage.getItem('activities')) {
       try {
         this.activities = JSON.parse(localStorage.getItem('activities'))
-        console.log(this.activities)
       } catch (e) {
         localStorage.removeItem('activities')
       }
@@ -45,7 +49,7 @@ export default {
       this.$validator.validateAll().then((result) => {
         if (result) {
           if (!this.activity) return
-          this.activities.push({activity: this.activity, value: true})
+          this.activities.push({activity: this.activity})
           this.activity = ''
           this.saveActivity()
         } else {
@@ -60,16 +64,11 @@ export default {
     saveActivity () {
       let parsed = JSON.stringify(this.activities)
       localStorage.setItem('activities', parsed)
-    },
-    onChangeEventHandler(i) {
-      this.activities[i]['value'] = !this.activities[i]['value']
-      this.saveActivity()
     }
   },
   watch: {
-    task: function() {
-      localStorage.setItem("task", JSON.stringify(this.task))
-      console.log('task: ' + JSON.stringify(this.task))
+    complete: function() {
+      localStorage.setItem("complete", JSON.stringify(this.complete));
     }
   }
 }
