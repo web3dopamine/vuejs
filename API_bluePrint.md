@@ -31,8 +31,8 @@ This resource does not have any attributes. Instead it offers the initial API af
                     "value": false
                 }
             ],
-	    "published_at": "2018-11-11T08:40:51.620Z",
-            "url": "/activities/"
+	     "published_at": "2018-11-11T08:40:51.620Z",
+             "url": "/activities/"
             
         }
 
@@ -79,8 +79,8 @@ You may create activity using this action. It takes a JSON object containing an 
                     "value": true
                 }
               ],
-  	     "published_at": "2018-11-11T08:40:51.620Z",
-             "url": "/activities/todo/4"
+  	      "published_at": "2018-11-11T08:40:51.620Z",
+              "url": "/activities/todo/4"
 
            }
 
