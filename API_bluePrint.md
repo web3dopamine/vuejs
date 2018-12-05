@@ -11,7 +11,7 @@ This resource does not have any attributes. Instead it offers the initial API af
 
 # View Activities
 
-### [GET] /Activities
+### [GET] /activities
 
 + Response 200 (application/json)
 	{
@@ -38,7 +38,7 @@ This resource does not have any attributes. Instead it offers the initial API af
 
 # Create Activities
  
-### [POST] /Activities/create        
+### [POST] /activities/create        
 
 You may create activity using this action. It takes a JSON object containing an activity.
 
@@ -85,7 +85,7 @@ You may create activity using this action. It takes a JSON object containing an 
            }
 
 	
-# [PUT] /Activities/update{?id=$id}
+# [PUT] /activities/update{?id=$id}
 
 This action allows you to vote on a question's choice.
 
@@ -99,6 +99,6 @@ This action allows you to vote on a question's choice.
 
 # DELETE 
 
-### [DELETE] /Activities/remove/{id}
+### [DELETE] /activities/remove/{id}
 
 + Response 204
