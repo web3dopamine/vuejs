@@ -85,7 +85,7 @@ You may create activity using this action. It takes a JSON object containing an 
            }
 
 	
-# [POST] /Activities/update{?id=$id}
+# [PUT] /Activities/update{?id=$id}
 
 This action allows you to vote on a question's choice.
 
