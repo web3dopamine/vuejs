@@ -10,7 +10,6 @@ Vue.use(ToggleButton)
 Vue.use(VeeValidate)
 Vue.config.productionTip = false
 
-export const store = new Vuex.Store({}) // vuex store
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

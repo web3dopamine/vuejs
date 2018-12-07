@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <div class="holder">
+      <!-- Add Activity Form -->
       <form @submit.prevent="addActivity">
         <input type="text" placeholder="Enter your activity..." v-model="activity" v-validate="'min:5'" name="activity"/>
         <transition name="alert-in">
@@ -8,6 +9,7 @@
         <p class="alert" v-if="activity.length >= 5">Press Enter</p>
         </transition>
       </form>
+      <!-- List Activity  -->
       <ul>
         <transition-group name="list" enter-active-class="animated bounceInUp" leave-active-class="animated bounceOutDown">
           <li v-for="(data, index) in activities" :key='index'>{{data.activity}}
@@ -31,6 +33,7 @@ export default {
     }
   },
   mounted () {
+    // list activities from localstorage
     if (localStorage.getItem('activities')) {
       try {
         this.activities = JSON.parse(localStorage.getItem('activities'))
@@ -41,6 +44,7 @@ export default {
     }
   },
   methods: {
+    // add Activity after checking validations
     addActivity () {
       this.$validator.validateAll().then((result) => {
         if (result) {
@@ -53,23 +57,20 @@ export default {
         }
       })
     },
+    // remove activity
     remove (id) {
       this.activities.splice(id, 1)
       this.saveActivity()
     },
+    // save activity to localstorage
     saveActivity () {
       let parsed = JSON.stringify(this.activities)
       localStorage.setItem('activities', parsed)
     },
-    onChangeEventHandler(i) {
+    // update activity from incomplete to complete
+    onChangeEventHandler (i) {
       this.activities[i]['value'] = !this.activities[i]['value']
       this.saveActivity()
-    }
-  },
-  watch: {
-    task: function() {
-      localStorage.setItem("task", JSON.stringify(this.task))
-      console.log('task: ' + JSON.stringify(this.task))
     }
   }
 }
@@ -80,73 +81,5 @@ export default {
 <style scoped>
 @import "https://cdn.jsdelivr.net/npm/animate.css@3.5.1";
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
-
-.holder {
-    background: #fff;
-  }
-
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-  }
-  ul li {
-    padding: 20px;
-    font-size: 1.3em;
-    background-color: #E0EDF4;
-    border-left: 5px solid #3EB3F6;
-    margin-bottom: 2px;
-    color: #3E5252;
-  }
-
-  p {
-    text-align:center;
-    padding: 30px 0;
-    color: gray;
-  }
-
-  .container {
-    box-shadow: 0px 0px 40px lightgray;
-  }
-   input {
-    width: calc(100% - 40px);
-    border: 0;
-    padding: 20px;
-    font-size: 1.3em;
-    background-color: #323333;
-    color: #687F7F;
-  }
-  .alert {
-    background: #fdf2ce;
-    font-weight: bold;
-    display: inline-block;
-    padding: 5px;
-    margin-top: -20px;
-  }
-  .alert-in-enter-active {
-  animation: bounce-in .5s;
-  }
-  .alert-in-leave-active {
-    animation: bounce-in .5s reverse;
-  }
-  @keyframes bounce-in {
-    0% {
-      transform: scale(0);
-    }
-    50% {
-      transform: scale(1.5);
-    }
-    100% {
-      transform: scale(1);
-    }
-  }
-  i {
-    float : right;
-  }
-  i:hover {
-    cursor: pointer;
-  }
-  [v-cloak] {
-    display: none;
-  }
+@import "../assets/css/style.css"
 </style>
