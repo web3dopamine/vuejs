@@ -18,27 +18,45 @@ This resource does not have any attributes. Instead it offers the initial API af
             
             "activities": [
                 {
+		    "id": 1,		
                     "activity": "Vue.js",
-                    "url": "/activities/todo/1",
-                    "value": true
+                    "value": true,
+                    "published_at": "2018-11-11T08:40:51.620Z"
                 }, {
+		    "id": 2,
                     "activity": "Blockchain Research",
-                    "url": "/activities/todo/2",
-                    "value": true
+                    "value": true,
+                    "published_at": "2018-11-11T08:40:51.620Z"
                 }, {
+		    "id": 3,
                     "activity": "DLT",
-                    "url": "/activities/todo/3",
-                    "value": false
+                    "value": false,
+                    "published_at": "2018-11-11T08:40:51.620Z"
                 }
-            ],
-	     "published_at": "2018-11-11T08:40:51.620Z",
-             "url": "/activities/"
-            
+            ]
         }
+
+# Get a Particular activity
+
+### [GET] /activity?id={$id}
+
++ Response 200 (application/json)
+	{
+            
+            "activities": [
+                {
+		    "id": 1,		
+                    "activity": "Vue.js",
+                    "value": true,
+                    "published_at": "2018-11-11T08:40:51.620Z"
+                }
+            ]
+        }
+
 
 # Create Activities
  
-### [POST] /activities/create        
+### [POST] /activity/create        
 
 You may create activity using this action. It takes a JSON object containing an activity.
 
@@ -47,14 +65,20 @@ You may create activity using this action. It takes a JSON object containing an 
 + Request (application/json)
 
         {
-            "activities": { "python", true }
+            "activities": [
+		{ 
+		    "id": 4,
+		    "activity": "python",
+		    "value": true, 
+	            "published_at": "2018-11-13T08:40:51.620Z"
+		}
         }
 
 + Response 201 (application/json)
 
     + Headers
 
-            Location: /activities/todo/4
+            Location: /activities/4
 
     + Body
 
@@ -62,30 +86,31 @@ You may create activity using this action. It takes a JSON object containing an 
 
              "activities": [
                 {
+		    "id": 1,		
                     "activity": "Vue.js",
-                    "url": "/activities/todo/1",
-                    "value": true
+                    "value": true,
+                    "published_at": "2018-11-11T08:40:51.620Z"
                 }, {
+		    "id": 2,
                     "activity": "Blockchain Research",
-                    "url": "/activities/todo/2",
-                    "value": true
+                    "value": true,
+                    "published_at": "2018-11-11T08:40:51.620Z"
                 }, {
+		    "id": 3,
                     "activity": "DLT",
-                    "url": "/activities/todo/3",
-                    "value": false
-                }, {
-                    "activity": "python",
-                    "url": "/activities/todo/4",
-                    "value": true
-                }
-              ],
-  	      "published_at": "2018-11-11T08:40:51.620Z",
-              "url": "/activities/todo/4"
-
+                    "value": false,
+                    "published_at": "2018-11-11T08:40:51.620Z"
+                },{ 
+		    "id": 4,
+		    "activity": "python",
+		    "value": true 
+	            "published_at": "2018-11-13T08:40:51.620Z"
+		}
+              ]
            }
 
 	
-# [PUT] /activities/update{?id=$id}
+# [PUT] /activities/update?id={$id}
 
 This action allows you to vote on a question's choice.
 
@@ -93,12 +118,13 @@ This action allows you to vote on a question's choice.
 
     + Headers
 
-            Location: /activities/todo/$id
+            Location: /activities?id{$id}
 
 
 
 # DELETE 
 
-### [DELETE] /activities/remove/{id}
+### [DELETE] /activities/remove/{$id}
 
 + Response 204
+
