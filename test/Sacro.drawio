@@ -1,1 +1,142 @@
-<mxfile host="app.diagrams.net" modified="2021-09-29T02:44:38.536Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" version="15.3.4" etag="CUeGy1gGyuEV0jelsGhm" type="github"><diagram id="FyzgZ836kgvVsch6gkGj">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-29T03:09:11.642Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="U9-Gi-SGqT29TF8lbeH4" version="15.3.4" type="github">
+  <diagram id="FyzgZ836kgvVsch6gkGj" name="Page-1">
+    <mxGraphModel dx="1906" dy="1037" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vWCauvzo7gH51iAdeTeT-35" value="" style="endArrow=classic;html=1;startSize=6;endSize=6;targetPerimeterSpacing=8;startArrow=none;entryX=0.513;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vWCauvzo7gH51iAdeTeT-30" target="vWCauvzo7gH51iAdeTeT-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="422" y="820" as="sourcePoint" />
+            <mxPoint x="422" y="1028" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-31" value="" style="endArrow=classic;html=1;startSize=6;endSize=6;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vWCauvzo7gH51iAdeTeT-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="600" as="sourcePoint" />
+            <mxPoint x="423" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-1" value="" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="340" width="145" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-2" value="SACROSANCT TOKEN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="405" y="380" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-4" value="Buyer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="82.5" y="590" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-5" value="Seller" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="732.5" y="600" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-8" value="Liquidity Pool" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="367.5" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-9" value="" style="endArrow=classic;html=1;startSize=6;endSize=6;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="vWCauvzo7gH51iAdeTeT-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="122.5" y="630" as="sourcePoint" />
+            <mxPoint x="552.5" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-10" value="" style="endArrow=classic;html=1;startSize=6;endSize=6;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vWCauvzo7gH51iAdeTeT-5" target="vWCauvzo7gH51iAdeTeT-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="502.5" y="780" as="sourcePoint" />
+            <mxPoint x="492.5" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-13" value="14% to LP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="592.5" y="630" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-14" value="14% to LP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="212.5" y="630" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-15" value="" style="endArrow=classic;html=1;startSize=6;endSize=6;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.451;entryY=-0.063;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vWCauvzo7gH51iAdeTeT-1" target="vWCauvzo7gH51iAdeTeT-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="550" as="sourcePoint" />
+            <mxPoint x="520" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-16" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-19" value="" style="endArrow=classic;html=1;startSize=6;endSize=6;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vWCauvzo7gH51iAdeTeT-16" target="vWCauvzo7gH51iAdeTeT-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="210" as="sourcePoint" />
+            <mxPoint x="560" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-21" value="&lt;b&gt;USER CAN PURCHASE MAX 4% OF TOTAL SUPPLY&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="358.13" y="80" width="128.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-22" value="This is to. prevent whales from buying and dumping tokens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="95" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-23" value="" style="endArrow=none;html=1;startSize=6;endSize=6;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vWCauvzo7gH51iAdeTeT-21" target="vWCauvzo7gH51iAdeTeT-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="310" as="sourcePoint" />
+            <mxPoint x="560" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-27" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;strokeColor=#AD4F4B;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="70" width="505" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-28" value="" style="endArrow=classic;html=1;startSize=6;endSize=6;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.542;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vWCauvzo7gH51iAdeTeT-27" target="vWCauvzo7gH51iAdeTeT-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="310" as="sourcePoint" />
+            <mxPoint x="599" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-29" value="How do you prevent user from having multiple addresses?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="541.5" y="230" width="121" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-32" value="Staking pool" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="397.5" y="870" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-33" value="" style="endArrow=classic;html=1;startSize=6;endSize=6;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.977;exitY=0.669;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.44;entryY=-0.058;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vWCauvzo7gH51iAdeTeT-30" target="vWCauvzo7gH51iAdeTeT-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="870" as="sourcePoint" />
+            <mxPoint x="610" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-34" value="" style="endArrow=classic;html=1;startSize=6;endSize=6;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.565;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vWCauvzo7gH51iAdeTeT-30" target="vWCauvzo7gH51iAdeTeT-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="486.7399999999998" y="912.48" as="sourcePoint" />
+            <mxPoint x="230" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-38" value="6 months" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;pointerEvents=0;strokeColor=#000000;strokeWidth=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="360.5" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-39" value="12 months&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;pointerEvents=0;strokeColor=#000000;strokeWidth=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="173" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-40" value="9 months" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;pointerEvents=0;strokeColor=#000000;strokeWidth=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="552" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-30" value="Staking Pool&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;strokeColor=#000000;strokeWidth=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="365" y="820" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-41" value="" style="endArrow=none;html=1;startSize=6;endSize=6;sourcePerimeterSpacing=8;" edge="1" parent="1" target="vWCauvzo7gH51iAdeTeT-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="422" y="820" as="sourcePoint" />
+            <mxPoint x="422" y="1028" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-42" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;strokeColor=#000000;strokeWidth=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="780" width="650" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-43" value="&lt;b&gt;withdrawing from Staking pool before contract period expires will result in 40% fine&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="112.5" y="790" width="147.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-45" value="Contract" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;hachureGap=4;pointerEvents=0;rotation=45;" vertex="1" parent="1">
+          <mxGeometry x="510" y="900" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-47" value="Contract" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;hachureGap=4;pointerEvents=0;rotation=-30;" vertex="1" parent="1">
+          <mxGeometry x="260" y="920" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vWCauvzo7gH51iAdeTeT-48" value="Contract" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;hachureGap=4;pointerEvents=0;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="405" y="930" width="60" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
