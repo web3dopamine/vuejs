@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-06T06:00:28.860Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="huxTqJ_2txiMfSkKYuMK" version="15.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-06T06:09:51.928Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="5PKPGj-rjG3me46mYdJi" version="15.4.1" type="github">
   <diagram id="FyzgZ836kgvVsch6gkGj" name="Page-1">
-    <mxGraphModel dx="908" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="908" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -45,7 +45,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vWCauvzo7gH51iAdeTeT-13" value="14% to LP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="397.5" y="790" width="70" height="20" as="geometry" />
+          <mxGeometry x="396.57" y="820" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="vWCauvzo7gH51iAdeTeT-15" value="" style="endArrow=classic;html=1;startSize=6;endSize=6;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.451;entryY=-0.063;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vWCauvzo7gH51iAdeTeT-1" target="vWCauvzo7gH51iAdeTeT-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -134,8 +134,8 @@
         <mxCell id="vWCauvzo7gH51iAdeTeT-48" value="Contract" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;hachureGap=4;pointerEvents=0;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="387.5" y="1260" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="pvBQROD-User7r6prkA2-1" value="Total: &lt;b&gt;33.3 million&lt;/b&gt;&lt;br&gt;Private Sale: &lt;b&gt;8.325 million&lt;br&gt;&lt;/b&gt;Remaining Token launch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="161.5" y="360" width="158.5" height="50" as="geometry" />
+        <mxCell id="pvBQROD-User7r6prkA2-1" value="Total: &lt;b&gt;33.3 million&lt;/b&gt;&lt;br&gt;Private Sale: &lt;b&gt;8.325 million&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp;Devs: &lt;b&gt;999000 &lt;/b&gt;after all distributions&lt;/span&gt;&lt;/div&gt;Remaining Token launch&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="102.5" y="350" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pvBQROD-User7r6prkA2-3" value="" style="endArrow=classic;html=1;startSize=6;endSize=6;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.006;exitY=0.445;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vWCauvzo7gH51iAdeTeT-1" target="pvBQROD-User7r6prkA2-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -150,8 +150,8 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pvBQROD-User7r6prkA2-7" value="14% of Total" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="367.5000000000001" y="760" width="120" height="80" as="geometry" />
+        <mxCell id="pvBQROD-User7r6prkA2-7" value="14% of Total of every buy &amp;amp; sell tranx" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="366.5700000000001" y="790" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pvBQROD-User7r6prkA2-8" value="" style="endArrow=classic;html=1;startSize=6;endSize=6;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0.488;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="vWCauvzo7gH51iAdeTeT-42">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -183,44 +183,68 @@
         </mxCell>
         <mxCell id="pvBQROD-User7r6prkA2-17" value="" style="endArrow=classic;html=1;startSize=6;endSize=6;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="425.0100000000001" y="840" as="sourcePoint" />
-            <mxPoint x="425" y="940" as="targetPoint" />
+            <mxPoint x="424.0800000000001" y="870" as="sourcePoint" />
+            <mxPoint x="424" y="920" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pvBQROD-User7r6prkA2-18" value="" style="endArrow=classic;html=1;startSize=6;endSize=6;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1">
+        <mxCell id="pvBQROD-User7r6prkA2-18" value="" style="endArrow=classic;html=1;startSize=6;endSize=6;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="pvBQROD-User7r6prkA2-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="435.0100000000002" y="850" as="sourcePoint" />
-            <mxPoint x="435" y="950" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pvBQROD-User7r6prkA2-19" value="" style="endArrow=classic;html=1;startSize=6;endSize=6;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="445.0100000000002" y="860" as="sourcePoint" />
-            <mxPoint x="445" y="960" as="targetPoint" />
+            <mxPoint x="434.0800000000002" y="880" as="sourcePoint" />
+            <mxPoint x="427" y="750" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pvBQROD-User7r6prkA2-20" value="" style="endArrow=classic;html=1;startSize=6;endSize=6;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="455.0100000000002" y="870" as="sourcePoint" />
-            <mxPoint x="455" y="970" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pvBQROD-User7r6prkA2-21" value="" style="endArrow=classic;html=1;startSize=6;endSize=6;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="465.0100000000002" y="880" as="sourcePoint" />
-            <mxPoint x="465" y="980" as="targetPoint" />
+            <mxPoint x="366.1000000000002" y="830" as="sourcePoint" />
+            <mxPoint x="300" y="830" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pvBQROD-User7r6prkA2-22" value="" style="endArrow=classic;html=1;startSize=6;endSize=6;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="475.0100000000002" y="890" as="sourcePoint" />
-            <mxPoint x="475" y="990" as="targetPoint" />
+            <mxPoint x="486.5700000000002" y="829.76" as="sourcePoint" />
+            <mxPoint x="560" y="830" as="targetPoint" />
             <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pvBQROD-User7r6prkA2-23" value="2% distributed to Holders" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="397.5" y="700" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pvBQROD-User7r6prkA2-25" value="4% to Makreting" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="815" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pvBQROD-User7r6prkA2-26" value="4% to LP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="920" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pvBQROD-User7r6prkA2-27" value="4% to ETH/BTC Reward Pool" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="815" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pvBQROD-User7r6prkA2-28" value="Seller" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1590" width="27.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pvBQROD-User7r6prkA2-29" value="" style="endArrow=classic;html=1;startSize=6;endSize=6;targetPerimeterSpacing=8;startArrow=none;strokeColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="184.83815665935603" y="1409.996775383806" as="sourcePoint" />
+            <mxPoint x="183" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pvBQROD-User7r6prkA2-31" value="&lt;font color=&quot;#ff3333&quot;&gt;If seller withdraws before contract period expiry&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pvBQROD-User7r6prkA2-29">
+          <mxGeometry x="0.1317" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pvBQROD-User7r6prkA2-32" value="&lt;font color=&quot;#ff3333&quot;&gt;40% deducted&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="183.74827664061826" y="1520.0000055667724" as="geometry" />
+        </mxCell>
+        <mxCell id="pvBQROD-User7r6prkA2-33" value="&lt;font color=&quot;#000000&quot;&gt;The contract staking period prevents whales from withdrawing&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="720" y="210" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="pvBQROD-User7r6prkA2-34" value="" style="endArrow=classic;html=1;startSize=6;endSize=6;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="pvBQROD-User7r6prkA2-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="663" y="265" as="sourcePoint" />
+            <mxPoint x="664.65824" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
